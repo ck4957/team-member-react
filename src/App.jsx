@@ -139,7 +139,7 @@ function App() {
                 </Route>
                 <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers employees={employees}
                                                                                selectedTeam={ selectedTeam }
-                                                                               setTeam={setTeam()} />}>
+                                                                               setTeam={setTeam} />}>
                 </Route>
                 <Route path="*" element={<NotFound />}>
                 </Route>
